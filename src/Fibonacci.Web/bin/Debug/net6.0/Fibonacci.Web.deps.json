@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Fibonacci.Web/1.0.0": {
+        "dependencies": {
+          "Louis.Dutoit.Fibonacci": "1.0.0"
+        },
+        "runtime": {
+          "Fibonacci.Web.dll": {}
+        }
+      },
+      "Louis.Dutoit.Fibonacci/1.0.0": {
+        "runtime": {
+          "lib/net6.0/Fibonacci.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Fibonacci.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Louis.Dutoit.Fibonacci/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YY+49Aye+7HDYzeo2pOS5+jnIbdHxHLv+7un9a2lhictFEnlKtT076mZLOB+nSYswSifTIqhF2LINsf4NaMLTA==",
+      "path": "louis.dutoit.fibonacci/1.0.0",
+      "hashPath": "louis.dutoit.fibonacci.1.0.0.nupkg.sha512"
+    }
+  }
+}

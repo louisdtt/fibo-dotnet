@@ -1,0 +1,99 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Louis.Dutoit.Fibonacci/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Fibonacci.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Fibonacci.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Louis.Dutoit.Fibonacci/1.0.0": {
+      "sha512": "YY+49Aye+7HDYzeo2pOS5+jnIbdHxHLv+7un9a2lhictFEnlKtT076mZLOB+nSYswSifTIqhF2LINsf4NaMLTA==",
+      "type": "package",
+      "path": "louis.dutoit.fibonacci/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Fibonacci.dll",
+        "louis.dutoit.fibonacci.1.0.0.nupkg.sha512",
+        "louis.dutoit.fibonacci.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Louis.Dutoit.Fibonacci >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/louis/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/louis/Cours/M2/fibo-dotnet/src/Fibonacci.Web/Fibonacci.Web.csproj",
+      "projectName": "Fibonacci.Web",
+      "projectPath": "/home/louis/Cours/M2/fibo-dotnet/src/Fibonacci.Web/Fibonacci.Web.csproj",
+      "packagesPath": "/home/louis/.nuget/packages/",
+      "outputPath": "/home/louis/Cours/M2/fibo-dotnet/src/Fibonacci.Web/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/louis/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Louis.Dutoit.Fibonacci": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/home/louis/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
