@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Louis.Dutoit.Fibonacci</id>
+    <version>1.0.0</version>
+    <authors>Fibonacci</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/home/louis/Cours/M2/fibo-dotnet/src/Fibonacci/bin/Debug/net6.0/Fibonacci.dll" target="lib/net6.0/Fibonacci.dll" />
+  </files>
+</package>
